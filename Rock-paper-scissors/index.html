@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid" style="width: 100%;">
+        <div class="row">
+            <h1><b>Rock <i class="far fa-hand-rock"></i> - Paper <i class="far fa-hand-paper"></i> - Scissors <i class="far fa-hand-scissors"></i></b></h1>
+            <div class="col-md-12">
+                <div class="selects">
+                    <div class="select" id="rock">
+                        <img src="C:\Users\aravi\OneDrive\Desktop\Rock-paper-scissors\rock.png">
+                    </div>
+                    <div class="select" id="paper">
+                        <img src="C:\Users\aravi\OneDrive\Desktop\Rock-paper-scissors\paper.png">
+                    </div>
+                    <div class="select" id="scissors">
+                        <img src="C:\Users\aravi\OneDrive\Desktop\Rock-paper-scissors\scissors.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="width: 100%;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="score-board">
+                    <div class="score">
+                        <h3><b>You</b></h3>
+                        <h3 id="userScore">0</h3>
+                    </div>
+                    <div class="score" style="margin-top: 5px;">
+                        <h3><b>Computer</b></h3>
+                        <h3 id="compScore" style="margin-left:-50px;">0</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="width: 100%;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="msg-container">
+                    <h3 id="msg">Play Your Move!</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

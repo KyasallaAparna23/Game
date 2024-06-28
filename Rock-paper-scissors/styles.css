@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(143, 143, 77);
+    margin: auto;
+}
+
+.selects {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+i {
+    color: rgb(120, 81, 81);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: 25%;
+    transition: all 2s;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.msg-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#msg {
+    background-color: aquamarine;
+    display: inline;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
